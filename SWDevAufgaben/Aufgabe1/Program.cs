@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Aufgabe1
 {
@@ -10,35 +6,35 @@ namespace Aufgabe1
     {
         public struct Foo
         {
-            public int a;
+            public int A;
         }
         public class Bar
         {
-            public int b;
+            public int B;
         }
         static void TakeFoo(Foo f)
         {
-            f.a = 12;
+            f.A = 12;
         }
         static void TakeFoo(ref Foo f)
         {
-            f.a = 12;
+            f.A = 12;
         }
         static void TakeBar(Bar b)
         {
-            b.b = 12;
+            b.B = 12;
         }
 
         private static void DoSomething()
         {
-            var foo = new Foo() { a = 3 };
-            var bar = new Bar() { b = 3 };
+            var foo = new Foo() { A = 3 };
+            var bar = new Bar() { B = 3 };
 //            TakeFoo(foo);
             TakeFoo(ref foo);
             TakeBar(bar);
 
-            Console.WriteLine(foo.a);
-            Console.WriteLine(bar.b);
+            Console.WriteLine(foo.A);
+            Console.WriteLine(bar.B);
 
             // Ohne ref:
             // foo.a = 3
