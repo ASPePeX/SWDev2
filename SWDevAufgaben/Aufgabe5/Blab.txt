@@ -1,0 +1,15 @@
+Dictonary<TKey, TValue>
+- Array / Hash-Tabel
+
+List<T>
+- Array
+
+Queue<T>
+- Array
+
+SortedList<TKey, TValue>
+- 2x Array
+
+Stack<T>
+- Array
+
