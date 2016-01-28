@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorPattern", "VisitorPa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lambdas", "Lambdas\Lambdas.csproj", "{B8F66112-2F47-4E36-B82F-11C1B86E3470}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enumerator", "Enumerator\Enumerator.csproj", "{27182115-5E56-413A-B4D9-7C6B5D45EF8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{B8F66112-2F47-4E36-B82F-11C1B86E3470}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8F66112-2F47-4E36-B82F-11C1B86E3470}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8F66112-2F47-4E36-B82F-11C1B86E3470}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27182115-5E56-413A-B4D9-7C6B5D45EF8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27182115-5E56-413A-B4D9-7C6B5D45EF8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27182115-5E56-413A-B4D9-7C6B5D45EF8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27182115-5E56-413A-B4D9-7C6B5D45EF8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
