@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection", "Depe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorPattern", "VisitorPattern\VisitorPattern.csproj", "{15CA0959-4E54-4946-8713-B579AF7C9C43}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lambdas", "Lambdas\Lambdas.csproj", "{B8F66112-2F47-4E36-B82F-11C1B86E3470}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{15CA0959-4E54-4946-8713-B579AF7C9C43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15CA0959-4E54-4946-8713-B579AF7C9C43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15CA0959-4E54-4946-8713-B579AF7C9C43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8F66112-2F47-4E36-B82F-11C1B86E3470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8F66112-2F47-4E36-B82F-11C1B86E3470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8F66112-2F47-4E36-B82F-11C1B86E3470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8F66112-2F47-4E36-B82F-11C1B86E3470}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
